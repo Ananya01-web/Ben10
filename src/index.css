@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: linear-gradient(
+    135deg,
+    #e3bed6,   
+    #ad7de9,   
+    #4e72e8    
+  );
+    min-height: 100vh;
+    display: felx;
+    justify-content: center;
+    align-items: center;
+}

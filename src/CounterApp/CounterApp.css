@@ -1,0 +1,68 @@
+.counter_conta{
+    background: white;
+    padding: 2rem;
+    margin-top: 13.5rem;
+    margin-left: 23rem;
+    margin-right: 23rem;
+    border-radius: 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+    text-align: center;
+    
+  
+}
+
+
+.counter_conta h1{
+    margin-bottom: 1rem;
+    color:black;
+    
+    font-family: 'Montserrat', sans-serif;
+    
+    
+
+
+
+}
+.count_display{
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 1rem;
+    color:rgb(35, 26, 15);
+
+}
+.button-group{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+
+}
+.btn{
+    padding:0.6rem 1.8rem;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: rgb(9, 60, 60);
+    transition: all 0.2 ease-in-out;
+
+}
+.btn.dec{
+    background-color: rgb(241, 105, 132);
+    font-weight: bold;
+    color:black;
+
+}
+.btn.add{
+    background-color: rgb(166, 220, 112);
+    font-weight: bold;
+    color:black;
+}
+.btn.reset{
+    background-color: rgb(115, 143, 232);
+    font-weight: bold;
+    color:black;
+
+}
+.btn:hover{
+    transform: scale(1.2);
+    opacity: 0.9;
+}
